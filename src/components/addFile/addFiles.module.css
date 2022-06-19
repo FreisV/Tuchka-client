@@ -1,0 +1,63 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border-top: 1px solid #8d6cc23b;
+}
+
+.form {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin: 10px 0;
+}
+
+.add {
+	font-size: 0.84em;
+}
+
+.button {
+	max-width: 150px;
+	padding: 7px 14px;
+	margin-right: 10px;
+	border: none;
+	border-radius: 10px;
+	background-color: #7459a0;
+	color: #fff;
+}
+
+.button:hover {
+	background-color: #8d6cc2;
+	cursor: pointer;
+}
+
+.button:disabled {
+	background-color: #8d6cc23b;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.file {
+	margin-left: 10px;
+	font-size: 0.9em;
+}
+
+.delete {
+	background-color: #fff;
+	border: none;
+	height: 16px;
+}
+
+.delete:hover {
+	cursor: pointer;
+	color: #474747;
+}

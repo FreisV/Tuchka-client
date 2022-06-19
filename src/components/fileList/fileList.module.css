@@ -1,0 +1,11 @@
+.empty {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: rgb(58, 58, 58);
+}
+
+.files > *{
+	margin-bottom: 10px;
+}
